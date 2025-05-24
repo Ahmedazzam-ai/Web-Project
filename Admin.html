@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Panel</title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <script src="JavaScript.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Admin Panel</h2>
+
+        <!-- Add Candidate Form -->
+        <form id="add-candidate-form">
+            <input type="text" id="candidate-name" placeholder="Candidate Name" required />
+            <button type="submit">Add Candidate</button>
+        </form>
+        
+
+        <h3>Current Candidates</h3>
+        <ul id="candidate-list"></ul>
+
+        <button onclick="location.href='dashboard.html'">Back to Dashboard</button>
+    </div>
+
+</body>
+</html>
